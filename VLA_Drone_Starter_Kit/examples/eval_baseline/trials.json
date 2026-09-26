@@ -1,0 +1,212 @@
+[
+  {
+    "seed": 200000,
+    "target": "bottle",
+    "success": true,
+    "error_m": 0.11327653890420825,
+    "elapsed_sim_s": 5.5
+  },
+  {
+    "seed": 200001,
+    "target": "can",
+    "success": true,
+    "error_m": 0.0935531654838195,
+    "elapsed_sim_s": 1.5
+  },
+  {
+    "seed": 200002,
+    "target": "paper",
+    "success": true,
+    "error_m": 0.06043412540018772,
+    "elapsed_sim_s": 4.5
+  },
+  {
+    "seed": 200003,
+    "target": "bottle",
+    "success": true,
+    "error_m": 0.07190898680501781,
+    "elapsed_sim_s": 4.5
+  },
+  {
+    "seed": 200004,
+    "target": "can",
+    "success": true,
+    "error_m": 0.0913437151038854,
+    "elapsed_sim_s": 3.5
+  },
+  {
+    "seed": 200005,
+    "target": "paper",
+    "success": true,
+    "error_m": 0.07211286189427944,
+    "elapsed_sim_s": 2.5
+  },
+  {
+    "seed": 200006,
+    "target": "bottle",
+    "success": true,
+    "error_m": 0.060877253010599916,
+    "elapsed_sim_s": 3.0
+  },
+  {
+    "seed": 200007,
+    "target": "can",
+    "success": true,
+    "error_m": 0.04865131709308497,
+    "elapsed_sim_s": 2.0
+  },
+  {
+    "seed": 200008,
+    "target": "paper",
+    "success": true,
+    "error_m": 0.10799400579717804,
+    "elapsed_sim_s": 4.0
+  },
+  {
+    "seed": 200009,
+    "target": "bottle",
+    "success": true,
+    "error_m": 0.09118529237508527,
+    "elapsed_sim_s": 2.5
+  },
+  {
+    "seed": 200010,
+    "target": "can",
+    "success": true,
+    "error_m": 0.08244964601239752,
+    "elapsed_sim_s": 4.5
+  },
+  {
+    "seed": 200011,
+    "target": "paper",
+    "success": true,
+    "error_m": 0.07114304234706384,
+    "elapsed_sim_s": 5.5
+  },
+  {
+    "seed": 200012,
+    "target": "bottle",
+    "success": true,
+    "error_m": 0.10178026213318314,
+    "elapsed_sim_s": 5.0
+  },
+  {
+    "seed": 200013,
+    "target": "can",
+    "success": true,
+    "error_m": 0.09284961336485652,
+    "elapsed_sim_s": 3.5
+  },
+  {
+    "seed": 200014,
+    "target": "paper",
+    "success": true,
+    "error_m": 0.1011578121951324,
+    "elapsed_sim_s": 3.5
+  },
+  {
+    "seed": 200015,
+    "target": "bottle",
+    "success": true,
+    "error_m": 0.06137168685752796,
+    "elapsed_sim_s": 3.5
+  },
+  {
+    "seed": 200016,
+    "target": "can",
+    "success": true,
+    "error_m": 0.1024436147635883,
+    "elapsed_sim_s": 4.0
+  },
+  {
+    "seed": 200017,
+    "target": "paper",
+    "success": true,
+    "error_m": 0.11964099334856461,
+    "elapsed_sim_s": 3.0
+  },
+  {
+    "seed": 200018,
+    "target": "bottle",
+    "success": true,
+    "error_m": 0.09171467700326202,
+    "elapsed_sim_s": 3.5
+  },
+  {
+    "seed": 200019,
+    "target": "can",
+    "success": true,
+    "error_m": 0.05976201174970141,
+    "elapsed_sim_s": 4.5
+  },
+  {
+    "seed": 200020,
+    "target": "paper",
+    "success": true,
+    "error_m": 0.07921257759089102,
+    "elapsed_sim_s": 2.0
+  },
+  {
+    "seed": 200021,
+    "target": "bottle",
+    "success": true,
+    "error_m": 0.10462159433982411,
+    "elapsed_sim_s": 4.0
+  },
+  {
+    "seed": 200022,
+    "target": "can",
+    "success": true,
+    "error_m": 0.07624629683553383,
+    "elapsed_sim_s": 2.5
+  },
+  {
+    "seed": 200023,
+    "target": "paper",
+    "success": true,
+    "error_m": 0.09537727320689032,
+    "elapsed_sim_s": 2.5
+  },
+  {
+    "seed": 200024,
+    "target": "bottle",
+    "success": true,
+    "error_m": 0.08592825708974768,
+    "elapsed_sim_s": 4.0
+  },
+  {
+    "seed": 200025,
+    "target": "can",
+    "success": true,
+    "error_m": 0.078942071831519,
+    "elapsed_sim_s": 5.0
+  },
+  {
+    "seed": 200026,
+    "target": "paper",
+    "success": true,
+    "error_m": 0.07280393205154694,
+    "elapsed_sim_s": 4.0
+  },
+  {
+    "seed": 200027,
+    "target": "bottle",
+    "success": true,
+    "error_m": 0.09477602052752172,
+    "elapsed_sim_s": 4.0
+  },
+  {
+    "seed": 200028,
+    "target": "can",
+    "success": true,
+    "error_m": 0.07626909943140443,
+    "elapsed_sim_s": 2.5
+  },
+  {
+    "seed": 200029,
+    "target": "paper",
+    "success": true,
+    "error_m": 0.08425938711968793,
+    "elapsed_sim_s": 3.5
+  }
+]

@@ -1,0 +1,1688 @@
+{
+  "format": "litterlab-1",
+  "fps": 2,
+  "action_schema": "delta_NE_metres_capture_anchor",
+  "camera": "level_nadir_96px_f48_height5m",
+  "episodes": [
+    {
+      "episode_id": "train_0000",
+      "split": "train",
+      "seed": 0,
+      "target": "bottle",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0001",
+      "split": "train",
+      "seed": 1,
+      "target": "can",
+      "success": true,
+      "steps": 11
+    },
+    {
+      "episode_id": "train_0002",
+      "split": "train",
+      "seed": 2,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0003",
+      "split": "train",
+      "seed": 3,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0004",
+      "split": "train",
+      "seed": 4,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0005",
+      "split": "train",
+      "seed": 5,
+      "target": "paper",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0006",
+      "split": "train",
+      "seed": 6,
+      "target": "bottle",
+      "success": true,
+      "steps": 4
+    },
+    {
+      "episode_id": "train_0007",
+      "split": "train",
+      "seed": 7,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0008",
+      "split": "train",
+      "seed": 8,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0009",
+      "split": "train",
+      "seed": 9,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0010",
+      "split": "train",
+      "seed": 10,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0011",
+      "split": "train",
+      "seed": 11,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0012",
+      "split": "train",
+      "seed": 12,
+      "target": "bottle",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0013",
+      "split": "train",
+      "seed": 13,
+      "target": "can",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0014",
+      "split": "train",
+      "seed": 14,
+      "target": "paper",
+      "success": true,
+      "steps": 3
+    },
+    {
+      "episode_id": "train_0015",
+      "split": "train",
+      "seed": 15,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0016",
+      "split": "train",
+      "seed": 16,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0017",
+      "split": "train",
+      "seed": 17,
+      "target": "paper",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0018",
+      "split": "train",
+      "seed": 18,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0019",
+      "split": "train",
+      "seed": 19,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0020",
+      "split": "train",
+      "seed": 20,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0021",
+      "split": "train",
+      "seed": 21,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0022",
+      "split": "train",
+      "seed": 22,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0023",
+      "split": "train",
+      "seed": 23,
+      "target": "paper",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0024",
+      "split": "train",
+      "seed": 24,
+      "target": "bottle",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0025",
+      "split": "train",
+      "seed": 25,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0026",
+      "split": "train",
+      "seed": 26,
+      "target": "paper",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0027",
+      "split": "train",
+      "seed": 27,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0028",
+      "split": "train",
+      "seed": 28,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0029",
+      "split": "train",
+      "seed": 29,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0030",
+      "split": "train",
+      "seed": 30,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0031",
+      "split": "train",
+      "seed": 31,
+      "target": "can",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0032",
+      "split": "train",
+      "seed": 32,
+      "target": "paper",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0033",
+      "split": "train",
+      "seed": 33,
+      "target": "bottle",
+      "success": true,
+      "steps": 4
+    },
+    {
+      "episode_id": "train_0034",
+      "split": "train",
+      "seed": 34,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0035",
+      "split": "train",
+      "seed": 35,
+      "target": "paper",
+      "success": true,
+      "steps": 12
+    },
+    {
+      "episode_id": "train_0036",
+      "split": "train",
+      "seed": 36,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0037",
+      "split": "train",
+      "seed": 37,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0038",
+      "split": "train",
+      "seed": 38,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0039",
+      "split": "train",
+      "seed": 39,
+      "target": "bottle",
+      "success": true,
+      "steps": 4
+    },
+    {
+      "episode_id": "train_0040",
+      "split": "train",
+      "seed": 40,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0041",
+      "split": "train",
+      "seed": 41,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0042",
+      "split": "train",
+      "seed": 42,
+      "target": "bottle",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0043",
+      "split": "train",
+      "seed": 43,
+      "target": "can",
+      "success": true,
+      "steps": 11
+    },
+    {
+      "episode_id": "train_0044",
+      "split": "train",
+      "seed": 44,
+      "target": "paper",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0045",
+      "split": "train",
+      "seed": 45,
+      "target": "bottle",
+      "success": true,
+      "steps": 2
+    },
+    {
+      "episode_id": "train_0046",
+      "split": "train",
+      "seed": 46,
+      "target": "can",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0047",
+      "split": "train",
+      "seed": 47,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0048",
+      "split": "train",
+      "seed": 48,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0049",
+      "split": "train",
+      "seed": 49,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0050",
+      "split": "train",
+      "seed": 50,
+      "target": "paper",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0051",
+      "split": "train",
+      "seed": 51,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0052",
+      "split": "train",
+      "seed": 52,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0053",
+      "split": "train",
+      "seed": 53,
+      "target": "paper",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0054",
+      "split": "train",
+      "seed": 54,
+      "target": "bottle",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0055",
+      "split": "train",
+      "seed": 55,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0056",
+      "split": "train",
+      "seed": 56,
+      "target": "paper",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0057",
+      "split": "train",
+      "seed": 57,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0058",
+      "split": "train",
+      "seed": 58,
+      "target": "can",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0059",
+      "split": "train",
+      "seed": 59,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0060",
+      "split": "train",
+      "seed": 60,
+      "target": "bottle",
+      "success": true,
+      "steps": 11
+    },
+    {
+      "episode_id": "train_0061",
+      "split": "train",
+      "seed": 61,
+      "target": "can",
+      "success": true,
+      "steps": 4
+    },
+    {
+      "episode_id": "train_0062",
+      "split": "train",
+      "seed": 62,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0063",
+      "split": "train",
+      "seed": 63,
+      "target": "bottle",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0064",
+      "split": "train",
+      "seed": 64,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0065",
+      "split": "train",
+      "seed": 65,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0066",
+      "split": "train",
+      "seed": 66,
+      "target": "bottle",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0067",
+      "split": "train",
+      "seed": 67,
+      "target": "can",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0068",
+      "split": "train",
+      "seed": 68,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0069",
+      "split": "train",
+      "seed": 69,
+      "target": "bottle",
+      "success": true,
+      "steps": 3
+    },
+    {
+      "episode_id": "train_0070",
+      "split": "train",
+      "seed": 70,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0071",
+      "split": "train",
+      "seed": 71,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0072",
+      "split": "train",
+      "seed": 72,
+      "target": "bottle",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0073",
+      "split": "train",
+      "seed": 73,
+      "target": "can",
+      "success": true,
+      "steps": 11
+    },
+    {
+      "episode_id": "train_0074",
+      "split": "train",
+      "seed": 74,
+      "target": "paper",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0075",
+      "split": "train",
+      "seed": 75,
+      "target": "bottle",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0076",
+      "split": "train",
+      "seed": 76,
+      "target": "can",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0077",
+      "split": "train",
+      "seed": 77,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0078",
+      "split": "train",
+      "seed": 78,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0079",
+      "split": "train",
+      "seed": 79,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0080",
+      "split": "train",
+      "seed": 80,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0081",
+      "split": "train",
+      "seed": 81,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0082",
+      "split": "train",
+      "seed": 82,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0083",
+      "split": "train",
+      "seed": 83,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0084",
+      "split": "train",
+      "seed": 84,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0085",
+      "split": "train",
+      "seed": 85,
+      "target": "can",
+      "success": true,
+      "steps": 3
+    },
+    {
+      "episode_id": "train_0086",
+      "split": "train",
+      "seed": 86,
+      "target": "paper",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0087",
+      "split": "train",
+      "seed": 87,
+      "target": "bottle",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0088",
+      "split": "train",
+      "seed": 88,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0089",
+      "split": "train",
+      "seed": 89,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0090",
+      "split": "train",
+      "seed": 90,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0091",
+      "split": "train",
+      "seed": 91,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0092",
+      "split": "train",
+      "seed": 92,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0093",
+      "split": "train",
+      "seed": 93,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0094",
+      "split": "train",
+      "seed": 94,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0095",
+      "split": "train",
+      "seed": 95,
+      "target": "paper",
+      "success": true,
+      "steps": 3
+    },
+    {
+      "episode_id": "train_0096",
+      "split": "train",
+      "seed": 96,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0097",
+      "split": "train",
+      "seed": 97,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0098",
+      "split": "train",
+      "seed": 98,
+      "target": "paper",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0099",
+      "split": "train",
+      "seed": 99,
+      "target": "bottle",
+      "success": true,
+      "steps": 3
+    },
+    {
+      "episode_id": "train_0100",
+      "split": "train",
+      "seed": 100,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0101",
+      "split": "train",
+      "seed": 101,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0102",
+      "split": "train",
+      "seed": 102,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0103",
+      "split": "train",
+      "seed": 103,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0104",
+      "split": "train",
+      "seed": 104,
+      "target": "paper",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0105",
+      "split": "train",
+      "seed": 105,
+      "target": "bottle",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0106",
+      "split": "train",
+      "seed": 106,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0107",
+      "split": "train",
+      "seed": 107,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0108",
+      "split": "train",
+      "seed": 108,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0109",
+      "split": "train",
+      "seed": 109,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0110",
+      "split": "train",
+      "seed": 110,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0111",
+      "split": "train",
+      "seed": 111,
+      "target": "bottle",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0112",
+      "split": "train",
+      "seed": 112,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0113",
+      "split": "train",
+      "seed": 113,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0114",
+      "split": "train",
+      "seed": 114,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0115",
+      "split": "train",
+      "seed": 115,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0116",
+      "split": "train",
+      "seed": 116,
+      "target": "paper",
+      "success": true,
+      "steps": 4
+    },
+    {
+      "episode_id": "train_0117",
+      "split": "train",
+      "seed": 117,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0118",
+      "split": "train",
+      "seed": 118,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0119",
+      "split": "train",
+      "seed": 119,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0120",
+      "split": "train",
+      "seed": 120,
+      "target": "bottle",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0121",
+      "split": "train",
+      "seed": 121,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0122",
+      "split": "train",
+      "seed": 122,
+      "target": "paper",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0123",
+      "split": "train",
+      "seed": 123,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0124",
+      "split": "train",
+      "seed": 124,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0125",
+      "split": "train",
+      "seed": 125,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0126",
+      "split": "train",
+      "seed": 126,
+      "target": "bottle",
+      "success": true,
+      "steps": 12
+    },
+    {
+      "episode_id": "train_0127",
+      "split": "train",
+      "seed": 127,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0128",
+      "split": "train",
+      "seed": 128,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0129",
+      "split": "train",
+      "seed": 129,
+      "target": "bottle",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0130",
+      "split": "train",
+      "seed": 130,
+      "target": "can",
+      "success": true,
+      "steps": 4
+    },
+    {
+      "episode_id": "train_0131",
+      "split": "train",
+      "seed": 131,
+      "target": "paper",
+      "success": true,
+      "steps": 11
+    },
+    {
+      "episode_id": "train_0132",
+      "split": "train",
+      "seed": 132,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0133",
+      "split": "train",
+      "seed": 133,
+      "target": "can",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0134",
+      "split": "train",
+      "seed": 134,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0135",
+      "split": "train",
+      "seed": 135,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0136",
+      "split": "train",
+      "seed": 136,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0137",
+      "split": "train",
+      "seed": 137,
+      "target": "paper",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "train_0138",
+      "split": "train",
+      "seed": 138,
+      "target": "bottle",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "train_0139",
+      "split": "train",
+      "seed": 139,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0140",
+      "split": "train",
+      "seed": 140,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "train_0141",
+      "split": "train",
+      "seed": 141,
+      "target": "bottle",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0142",
+      "split": "train",
+      "seed": 142,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0143",
+      "split": "train",
+      "seed": 143,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0144",
+      "split": "train",
+      "seed": 144,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0145",
+      "split": "train",
+      "seed": 145,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "train_0146",
+      "split": "train",
+      "seed": 146,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0147",
+      "split": "train",
+      "seed": 147,
+      "target": "bottle",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "train_0148",
+      "split": "train",
+      "seed": 148,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "train_0149",
+      "split": "train",
+      "seed": 149,
+      "target": "paper",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "val_0000",
+      "split": "val",
+      "seed": 100000,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "val_0001",
+      "split": "val",
+      "seed": 100001,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "val_0002",
+      "split": "val",
+      "seed": 100002,
+      "target": "paper",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "val_0003",
+      "split": "val",
+      "seed": 100003,
+      "target": "bottle",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "val_0004",
+      "split": "val",
+      "seed": 100004,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "val_0005",
+      "split": "val",
+      "seed": 100005,
+      "target": "paper",
+      "success": true,
+      "steps": 3
+    },
+    {
+      "episode_id": "val_0006",
+      "split": "val",
+      "seed": 100006,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "val_0007",
+      "split": "val",
+      "seed": 100007,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "val_0008",
+      "split": "val",
+      "seed": 100008,
+      "target": "paper",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "val_0009",
+      "split": "val",
+      "seed": 100009,
+      "target": "bottle",
+      "success": true,
+      "steps": 3
+    },
+    {
+      "episode_id": "val_0010",
+      "split": "val",
+      "seed": 100010,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "val_0011",
+      "split": "val",
+      "seed": 100011,
+      "target": "paper",
+      "success": true,
+      "steps": 3
+    },
+    {
+      "episode_id": "val_0012",
+      "split": "val",
+      "seed": 100012,
+      "target": "bottle",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "val_0013",
+      "split": "val",
+      "seed": 100013,
+      "target": "can",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "val_0014",
+      "split": "val",
+      "seed": 100014,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "val_0015",
+      "split": "val",
+      "seed": 100015,
+      "target": "bottle",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "val_0016",
+      "split": "val",
+      "seed": 100016,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "val_0017",
+      "split": "val",
+      "seed": 100017,
+      "target": "paper",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "val_0018",
+      "split": "val",
+      "seed": 100018,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "val_0019",
+      "split": "val",
+      "seed": 100019,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "val_0020",
+      "split": "val",
+      "seed": 100020,
+      "target": "paper",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "val_0021",
+      "split": "val",
+      "seed": 100021,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "val_0022",
+      "split": "val",
+      "seed": 100022,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "val_0023",
+      "split": "val",
+      "seed": 100023,
+      "target": "paper",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "val_0024",
+      "split": "val",
+      "seed": 100024,
+      "target": "bottle",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "val_0025",
+      "split": "val",
+      "seed": 100025,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "val_0026",
+      "split": "val",
+      "seed": 100026,
+      "target": "paper",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "val_0027",
+      "split": "val",
+      "seed": 100027,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "val_0028",
+      "split": "val",
+      "seed": 100028,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "val_0029",
+      "split": "val",
+      "seed": 100029,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "test_0000",
+      "split": "test",
+      "seed": 200000,
+      "target": "bottle",
+      "success": true,
+      "steps": 11
+    },
+    {
+      "episode_id": "test_0001",
+      "split": "test",
+      "seed": 200001,
+      "target": "can",
+      "success": true,
+      "steps": 3
+    },
+    {
+      "episode_id": "test_0002",
+      "split": "test",
+      "seed": 200002,
+      "target": "paper",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "test_0003",
+      "split": "test",
+      "seed": 200003,
+      "target": "bottle",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "test_0004",
+      "split": "test",
+      "seed": 200004,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "test_0005",
+      "split": "test",
+      "seed": 200005,
+      "target": "paper",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "test_0006",
+      "split": "test",
+      "seed": 200006,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "test_0007",
+      "split": "test",
+      "seed": 200007,
+      "target": "can",
+      "success": true,
+      "steps": 4
+    },
+    {
+      "episode_id": "test_0008",
+      "split": "test",
+      "seed": 200008,
+      "target": "paper",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "test_0009",
+      "split": "test",
+      "seed": 200009,
+      "target": "bottle",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "test_0010",
+      "split": "test",
+      "seed": 200010,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "test_0011",
+      "split": "test",
+      "seed": 200011,
+      "target": "paper",
+      "success": true,
+      "steps": 11
+    },
+    {
+      "episode_id": "test_0012",
+      "split": "test",
+      "seed": 200012,
+      "target": "bottle",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "test_0013",
+      "split": "test",
+      "seed": 200013,
+      "target": "can",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "test_0014",
+      "split": "test",
+      "seed": 200014,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "test_0015",
+      "split": "test",
+      "seed": 200015,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "test_0016",
+      "split": "test",
+      "seed": 200016,
+      "target": "can",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "test_0017",
+      "split": "test",
+      "seed": 200017,
+      "target": "paper",
+      "success": true,
+      "steps": 6
+    },
+    {
+      "episode_id": "test_0018",
+      "split": "test",
+      "seed": 200018,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "test_0019",
+      "split": "test",
+      "seed": 200019,
+      "target": "can",
+      "success": true,
+      "steps": 9
+    },
+    {
+      "episode_id": "test_0020",
+      "split": "test",
+      "seed": 200020,
+      "target": "paper",
+      "success": true,
+      "steps": 4
+    },
+    {
+      "episode_id": "test_0021",
+      "split": "test",
+      "seed": 200021,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "test_0022",
+      "split": "test",
+      "seed": 200022,
+      "target": "can",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "test_0023",
+      "split": "test",
+      "seed": 200023,
+      "target": "paper",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "test_0024",
+      "split": "test",
+      "seed": 200024,
+      "target": "bottle",
+      "success": true,
+      "steps": 7
+    },
+    {
+      "episode_id": "test_0025",
+      "split": "test",
+      "seed": 200025,
+      "target": "can",
+      "success": true,
+      "steps": 10
+    },
+    {
+      "episode_id": "test_0026",
+      "split": "test",
+      "seed": 200026,
+      "target": "paper",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "test_0027",
+      "split": "test",
+      "seed": 200027,
+      "target": "bottle",
+      "success": true,
+      "steps": 8
+    },
+    {
+      "episode_id": "test_0028",
+      "split": "test",
+      "seed": 200028,
+      "target": "can",
+      "success": true,
+      "steps": 5
+    },
+    {
+      "episode_id": "test_0029",
+      "split": "test",
+      "seed": 200029,
+      "target": "paper",
+      "success": true,
+      "steps": 7
+    }
+  ]
+}

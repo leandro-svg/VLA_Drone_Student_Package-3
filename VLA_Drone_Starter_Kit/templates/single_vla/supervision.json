@@ -1,0 +1,19 @@
+{
+  "example_only": true,
+  "mission_id": "example_m04",
+  "observation_id": "example_frame_0812",
+  "mode": "SURVEY",
+  "expert_event": "DETOUR",
+  "selected_bbox_xyxy_normalised": [0.52, 0.20, 0.60, 0.31],
+  "category": "unknown",
+  "attributes": [],
+  "expert_inspection_action_delta_ne_m": null,
+  "head_validity": {
+    "event": true,
+    "region": true,
+    "category": true,
+    "attributes": false,
+    "inspection_action": false
+  },
+  "annotation_note": "A candidate is visible but its category is unresolved at this frame. No future close-up label is supplied."
+}

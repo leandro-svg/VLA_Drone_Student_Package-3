@@ -1,0 +1,24 @@
+{
+  "example_only": true,
+  "mission_id": "example_m04",
+  "observation_id": "example_frame_0812",
+  "image_path": "illustrative_only/frame_0812.png",
+  "capture_monotonic_s": 40.0,
+  "calibration_id": "example_camera_v1",
+  "estimated_position_ned_m": [2.0, 3.0, -5.0],
+  "estimated_velocity_ned_m_s": [0.5, 0.0, 0.0],
+  "instruction": "Survey the field and map visible litter; prioritise bottles.",
+  "context": {
+    "mode": "SURVEY",
+    "task_epoch": 3,
+    "context_version": 42,
+    "route_id": "example_lawnmower",
+    "route_version": 1,
+    "segment_index": 2,
+    "along_segment_m": 3.2,
+    "coverage_fraction": 0.24,
+    "remaining_budget_s": 140.0,
+    "mapped_tracks_in_view": [],
+    "health_valid": true
+  }
+}

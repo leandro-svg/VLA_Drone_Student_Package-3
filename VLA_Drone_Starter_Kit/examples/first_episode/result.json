@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "steps": 9,
+  "elapsed_sim_s": 4.5,
+  "seed": 7,
+  "target": "can",
+  "policy": "classical colour baseline"
+}

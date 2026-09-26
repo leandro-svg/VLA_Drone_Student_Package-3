@@ -1,0 +1,14 @@
+{
+  "example_only": true,
+  "event_id": "example_m04_e18",
+  "event": "DETOUR",
+  "observation_id": "example_frame_0812",
+  "task_epoch": 3,
+  "context_version": 42,
+  "bbox_xyxy_normalised": [0.52, 0.20, 0.60, 0.31],
+  "category": "unknown",
+  "reason_code": "need_closer_view",
+  "action_delta_ne_m": null,
+  "valid_until_monotonic_s": 40.5,
+  "evidence_ids": ["example_frame_0812"]
+}

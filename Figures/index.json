@@ -1,0 +1,100 @@
+[
+  {
+    "number": 1,
+    "title": "The litter search mission",
+    "page": 6,
+    "png": "01_mission.png",
+    "svg": "01_mission.svg"
+  },
+  {
+    "number": 2,
+    "title": "From camera pixels to ground offsets",
+    "page": 10,
+    "png": "02_coordinates.png",
+    "svg": "02_coordinates.svg"
+  },
+  {
+    "number": 3,
+    "title": "One VLA decides and acts",
+    "page": 11,
+    "png": "03_architecture.png",
+    "svg": "03_architecture.svg"
+  },
+  {
+    "number": 14,
+    "title": "Inside the single VLA",
+    "page": 12,
+    "png": "14_model.png",
+    "svg": "14_model.svg"
+  },
+  {
+    "number": 4,
+    "title": "Anchor one prediction to one observation",
+    "page": 20,
+    "png": "04_command_timeline.png",
+    "svg": "04_command_timeline.svg"
+  },
+  {
+    "number": 5,
+    "title": "A recorded teaching episode",
+    "page": 23,
+    "png": "05_recorded_episode.png",
+    "svg": null
+  },
+  {
+    "number": 6,
+    "title": "Measured teaching results",
+    "page": 28,
+    "png": "06_measured_results.png",
+    "svg": "06_measured_results.svg"
+  },
+  {
+    "number": 7,
+    "title": "The simulator and flight software loop",
+    "page": 34,
+    "png": "07_simulator.png",
+    "svg": "07_simulator.svg"
+  },
+  {
+    "number": 8,
+    "title": "From repeated sightings to object tracks",
+    "page": 42,
+    "png": "08_mapping.png",
+    "svg": "08_mapping.svg"
+  },
+  {
+    "number": 9,
+    "title": "Mission labels and information boundaries",
+    "page": 48,
+    "png": "09_dataset.png",
+    "svg": "09_dataset.svg"
+  },
+  {
+    "number": 10,
+    "title": "Training one shared model",
+    "page": 54,
+    "png": "10_training.png",
+    "svg": "10_training.svg"
+  },
+  {
+    "number": 11,
+    "title": "One model across mission modes",
+    "page": 61,
+    "png": "11_orin.png",
+    "svg": "11_orin.svg"
+  },
+  {
+    "number": 12,
+    "title": "The stages of transfer evidence",
+    "page": 65,
+    "png": "12_transfer.png",
+    "svg": "12_transfer.svg"
+  },
+  {
+    "number": 13,
+    "title": "Main system and decision comparisons",
+    "page": 68,
+    "png": "13_experiments.png",
+    "svg": "13_experiments.svg"
+  }
+]

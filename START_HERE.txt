@@ -1,0 +1,78 @@
+VLA DRONE STUDENT PACKAGE
+Single VLA edition | 26 September 2026
+
+YOUR PROJECT
+Develop and evaluate one VLA that monitors a normal field survey, decides
+when to detour, approaches visible litter, analyses and maps it, then resumes
+unfinished coverage. It shares visual and language features across mission
+decisions, candidate grounding, semantic labels and bounded movements.
+Ordinary software preserves the route and validates commands; the existing
+autopilot flies. No second VLM is required in the target system.
+
+OPEN THIS FIRST
+Guide/VLA_Drone_Complete_Thesis_Guide_VUB.pdf
+
+This single 84-page guide contains the foundations, literature review,
+research methodology, ten introductory labs and two research build labs,
+datasets and joint training, Orin strategy, sim-to-real evaluation, thesis
+writing guidance, a publication strategy and research record templates.
+The .docx beside it is the editable version of the same document.
+The linked figure index on page 4 leads to fourteen explanatory visuals.
+
+FIRST SESSION
+1. Extract the whole ZIP to a local folder. Do not run code inside the ZIP.
+2. Read pages 2-12 of the guide, then the first-two-weeks plan on page 18.
+3. Open VLA_Drone_Starter_Kit/README.md in a text editor.
+4. Open a terminal in VLA_Drone_Starter_Kit and follow its setup commands.
+5. Run Lab 1 on page 22. Expect 20 passing tests and a saved episode replay.
+6. Follow the six-paper reading route on page 16 alongside the practical work.
+
+RESEARCH BUILD MILESTONES
+Lab 11 (page 39) builds the mission manager and reliable detour/resume logic.
+Lab 12 (page 56) adds mission, grounding and semantic outputs to one VLA.
+These are implementation assignments, not completed software in this ZIP.
+Read VLA_Drone_Starter_Kit/docs/SINGLE_VLA.md for the exact boundary between
+the supplied movement exercises and the proposed research system.
+
+WHAT IS INCLUDED
+Guide/
+  Complete guide in PDF and editable Word formats.
+Figures/
+  Fourteen PNG figures and thirteen editable SVG versions, with a figure
+  index, source notes and a regeneration script. Figure 5 is raster only.
+VLA_Drone_Starter_Kit/
+  litterlab/        Laptop simulator, expert and tiny imitation learner.
+  integration/      Dataset tools, SmolVLA and PX4/Gazebo exercises.
+  tests/            Twenty checks for the teaching code and interfaces.
+  docs/             Simulator/GPU setup and an explicit validation record.
+  templates/single_vla/
+                    Illustrative observation, proposal and label records.
+  examples/         Replay, logs, tiny-model weights and evaluation outputs.
+  examples/teaching_dataset/
+                    All 210 synthetic demonstration episodes and splits.
+  requirements.txt  Laptop dependencies.
+  README.md         Installation and runnable commands.
+
+HOW TO USE THE EXAMPLES
+Evaluation now defaults to validation scenes. Add --split test to the guide's
+evaluation commands when reproducing its reported test results. The README
+contains the updated commands and explains the additional dataset checks.
+
+The examples are reference outputs. Create your own results in new runs/
+folders. Lab 3 regenerates the teaching data; the included copy also lets
+you inspect its images and records immediately. The tiny-model checkpoint
+is an educational NumPy policy, not pretrained SmolVLA. Use these results
+to learn the workflow; do not present them as your own real-drone results.
+
+WHAT NEEDS THE LAB
+The laptop exercises have been executed. The PX4/Gazebo and SmolVLA scripts
+still require their documented simulator/GPU smoke tests. Orin benchmarks,
+the synchronised flight bridge and real flights require lab support and
+validation. See VLA_Drone_Starter_Kit/docs/VALIDATION.md for the exact status.
+The complete survey mission manager, unified model heads and their trainer
+are research work to implement; the included SmolVLA trainer is movement-only.
+
+Python libraries, the simulator and pretrained weights require installation
+or downloads. The guide links to papers and official documentation; their
+full texts and external software are not bundled. Training uses the lab
+workstation; the Orin NX 16 GB is the proposed onboard inference computer.

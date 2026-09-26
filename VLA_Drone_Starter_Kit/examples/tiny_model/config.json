@@ -1,0 +1,9 @@
+{
+  "model": "Tiny visual-feature MLP",
+  "seed": 0,
+  "epochs": 200,
+  "action_scale_m": 0.5,
+  "dataset": "runs/data",
+  "selection": "validation action MSE; closed-loop evaluation is separate",
+  "dataset_path_note": "Regenerate runs/data using the README command, or use the bundled examples/teaching_dataset copy."
+}

@@ -1,0 +1,32 @@
+{
+  "coordinate_system": "local NED metres, NOT GeoJSON",
+  "objects": [
+    {
+      "category": "bottle",
+      "local_ned_m": [
+        0.6667244923186486,
+        1.7732454451086759,
+        0.0
+      ],
+      "evidence_time_s": 4.0
+    },
+    {
+      "category": "can",
+      "local_ned_m": [
+        1.2917245295715516,
+        -1.3517543984291316,
+        0.0
+      ],
+      "evidence_time_s": 4.0
+    },
+    {
+      "category": "paper",
+      "local_ned_m": [
+        -0.8957753884720618,
+        1.6690789373877286,
+        0.0
+      ],
+      "evidence_time_s": 4.0
+    }
+  ]
+}

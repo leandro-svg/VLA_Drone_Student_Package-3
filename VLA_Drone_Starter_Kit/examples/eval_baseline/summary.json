@@ -1,0 +1,9 @@
+{
+  "episodes": 30,
+  "success_count": 30,
+  "success_rate": 1.0,
+  "mean_final_error_m": 0.08480290438890638,
+  "language_condition": "normal",
+  "response_multiplier": 1.0,
+  "domain": "toy kinematic simulation only"
+}
