@@ -24,7 +24,7 @@ FIRST SESSION
 2. Read pages 2-12 of the guide, then the first-two-weeks plan on page 18.
 3. Open VLA_Drone_Starter_Kit/README.md in a text editor.
 4. Open a terminal in VLA_Drone_Starter_Kit and follow its setup commands.
-5. Run Lab 1 on page 22. Expect 20 passing tests and a saved episode replay.
+5. Run Lab 1 on page 22. Expect 19 passing tests and a saved episode replay.
 6. Follow the six-paper reading route on page 16 alongside the practical work.
 
 RESEARCH BUILD MILESTONES
@@ -43,7 +43,7 @@ Figures/
 VLA_Drone_Starter_Kit/
   litterlab/        Laptop simulator, expert and tiny imitation learner.
   integration/      Dataset tools, SmolVLA and PX4/Gazebo exercises.
-  tests/            Twenty checks for the teaching code and interfaces.
+  tests/            Nineteen checks for the teaching code and interfaces.
   docs/             Simulator/GPU setup and an explicit validation record.
   templates/single_vla/
                     Illustrative observation, proposal and label records.
