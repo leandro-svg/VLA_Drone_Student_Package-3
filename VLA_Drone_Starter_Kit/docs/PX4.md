@@ -1,5 +1,7 @@
 # PX4 and Gazebo lab
 
+Use the expanded [Lab 6](../labs/06_simulator.md), [Lab 7](../labs/07_camera.md) and [Lab 8](../labs/08_commands.md) for predictions, measurements and completion checks. On a Mac, use the offline preparation tasks and run the documented simulator stack on an Ubuntu host. Keep PX4, Gazebo, recording and MAVSDK together on that host; the local simulator endpoint in the square script is not a remote-host connection.
+
 **Status: source-reviewed integration exercises, not executed in PX4/Gazebo here.** Asset generation has a structural unit test, which does not validate Gazebo loading, camera orientation or flight. Work on an isolated software simulator with no physical aircraft connected.
 
 Use the lab's Ubuntu 22.04 workstation, PX4 v1.16.0 and Gazebo Harmonic. Treat these as candidate pins to verify together. Start with the [PX4 Ubuntu setup](https://docs.px4.io/v1.16/en/dev_setup/dev_env_linux_ubuntu); the lab should perform the dependency installation and retain its environment record.

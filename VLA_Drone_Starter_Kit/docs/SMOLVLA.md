@@ -1,5 +1,7 @@
 # SmolVLA GPU lab
 
+Follow the expanded [Lab 9](../labs/09_smolvla_interface.md) for a one-step and reload check before the longer [Lab 10](../labs/10_smolvla_training.md). The CPU lab environment and Python version do not establish LeRobot compatibility. The current scripts explicitly require CUDA; Apple MPS adaptation remains a separate, unverified task.
+
 **Scope: movement pilot only.** This trainer does not implement the final mission-event, grounding or semantic heads. See [SINGLE_VLA.md](SINGLE_VLA.md) and Labs 11–12 for the research implementation.
 
 

@@ -10,21 +10,29 @@ Ordinary software preserves the route and validates commands; the existing
 autopilot flies. No second VLM is required in the target system.
 
 OPEN THIS FIRST
-Guide/VLA_Drone_Complete_Thesis_Guide_VUB.pdf
+VLA_Drone_Starter_Kit/labs/README.md
+Printable version: Guide/VLA_Drone_Lab_Workbook.pdf
+Editable version: Guide/VLA_Drone_Lab_Workbook.docx
 
-This single 84-page guide contains the foundations, literature review,
+The updated workbook covers all twelve labs, with Mac and workstation routes,
+prediction exercises, commands, troubleshooting and completion evidence.
+Its practical instructions supersede those in the original thesis guide.
+
+THEORY REFERENCE
+Guide/VLA_Drone_Complete_Thesis_Guide_VUB.docx
+The original 84-page guide contains the foundations, literature review,
 research methodology, ten introductory labs and two research build labs,
 datasets and joint training, Orin strategy, sim-to-real evaluation, thesis
 writing guidance, a publication strategy and research record templates.
-The .docx beside it is the editable version of the same document.
+The Word document is the editable theory reference.
 The linked figure index on page 4 leads to fourteen explanatory visuals.
 
 FIRST SESSION
 1. Extract the whole ZIP to a local folder. Do not run code inside the ZIP.
 2. Read pages 2-12 of the guide, then the first-two-weeks plan on page 18.
-3. Open VLA_Drone_Starter_Kit/README.md in a text editor.
-4. Open a terminal in VLA_Drone_Starter_Kit and follow its setup commands.
-5. Run Lab 1 on page 22. Expect 19 passing tests and a saved episode replay.
+3. Read the updated labs/README.md environment table and learning order.
+4. Open a terminal in VLA_Drone_Starter_Kit and follow the workbook setup.
+5. Follow labs/01_first_episode.md. Expect 22 passing tests and three replays.
 6. Follow the six-paper reading route on page 16 alongside the practical work.
 
 RESEARCH BUILD MILESTONES
@@ -36,14 +44,15 @@ the supplied movement exercises and the proposed research system.
 
 WHAT IS INCLUDED
 Guide/
-  Complete guide in PDF and editable Word formats.
+  Updated workbook in PDF/Word and the original thesis reference in Word.
 Figures/
   Fourteen PNG figures and thirteen editable SVG versions, with a figure
   index, source notes and a regeneration script. Figure 5 is raster only.
 VLA_Drone_Starter_Kit/
   litterlab/        Laptop simulator, expert and tiny imitation learner.
   integration/      Dataset tools, SmolVLA and PX4/Gazebo exercises.
-  tests/            Nineteen checks for the teaching code and interfaces.
+  tests/            Twenty-two checks for the teaching code and interfaces.
+  labs/             Updated instructions for all twelve labs and a worksheet.
   docs/             Simulator/GPU setup and an explicit validation record.
   templates/single_vla/
                     Illustrative observation, proposal and label records.
@@ -54,9 +63,9 @@ VLA_Drone_Starter_Kit/
   README.md         Installation and runnable commands.
 
 HOW TO USE THE EXAMPLES
-Evaluation now defaults to validation scenes. Add --split test to the guide's
-evaluation commands when reproducing its reported test results. The README
-contains the updated commands and explains the additional dataset checks.
+Evaluation defaults to validation scenes. The updated workbook uses explicit
+splits. Add --split test to the original guide's evaluation commands when
+reproducing its reported test results.
 
 The examples are reference outputs. Create your own results in new runs/
 folders. Lab 3 regenerates the teaching data; the included copy also lets

@@ -1,0 +1,4 @@
+# Verified with native ARM64 Python 3.14.6 on macOS.
+# Use a separate environment for LeRobot, PyTorch and MAVSDK.
+numpy==2.5.3
+Pillow==12.3.0

@@ -1,5 +1,19 @@
 # Validation record
 
+## Updated workbook verified on 26 September 2026
+
+The current practical instructions are in `labs/README.md` and the twelve linked lab files. The original thesis guide remains a theory reference. New read-only helpers in `integration.lab_tools` report the environment, inspect an episode anchor, identify the selected tiny-model epoch and compare runs with matched starts.
+
+- All 22 unit tests passed, including three additional teaching-helper tests.
+- Executed the revised CPU route in temporary run folders on Python 3.14.6, NumPy 2.5.3 and Pillow 12.3.0.
+- Lab 1 seed 7: can succeeded in 9 steps, bottle in 7 and paper in 6. Episode inspection confirmed the first capture anchor plus action matched the accepted target.
+- Lab 3 regenerated 210 episodes and 1,569 samples, with no expert failures; the expanded validator passed.
+- Lab 4 trained for 200 epochs / 1,800 updates. The helper identified epoch 119 as the selected checkpoint, with validation normalised action MSE 0.022317233243632904.
+- Lab 5 validation scenes: classical 30/30, learned normal 29/30, swapped 0/30, empty 1/30. The normal-policy failure at seed 100000, bottle target, reproduced. The response-multiplier-2 extension achieved 27/30. These validation results are distinct from the historical test results below.
+- CPU outputs used for this authoring check were temporary. These checks do not mark the student's worksheets complete.
+
+The revised Labs 6–12 provide fuller prerequisites, procedures and acceptance criteria. Their simulator/GPU runtime and research implementation status is unchanged: no PX4/Gazebo launch, CUDA/MPS model run, mission-manager implementation, unified mission training or hardware operation was performed in this revision.
+
 ## Workflow fixes verified on 26 September 2026
 
 Environment: Python 3.14.6, NumPy 2.5.3, Pillow 12.3.0, in an isolated temporary virtual environment.
@@ -13,7 +27,7 @@ Environment: Python 3.14.6, NumPy 2.5.3, Pillow 12.3.0, in an isolated temporary
 - A full 200-epoch retraining run produced weights identical to the bundled checkpoint, with 1,800 optimiser steps and best validation normalised action MSE 0.022317233243632904.
 - All starter-kit Python sources parsed successfully. Run outputs were written to temporary directories; bundled examples were preserved.
 
-The PDF/Word guide retains the original commands and ten-test count. Use the updated README commands and expect 19 tests. The optional GPU, simulator and hardware integrations remain unexecuted.
+This earlier revision increased the suite to 19 tests. The current workbook revision above brings it to 22. Follow the workbook for current commands; the original thesis guide reports the historical ten-test run. The optional GPU, simulator and hardware integrations remain unexecuted.
 
 ## Original teaching run
 

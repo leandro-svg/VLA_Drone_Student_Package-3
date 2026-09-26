@@ -1,5 +1,7 @@
 # Single VLA mission research implementation
 
+The expanded [Lab 11](../labs/11_mission_manager.md) separates offline manager replay from SITL integration. [Lab 12](../labs/12_unified_vla.md) defines data, loss, integration and complete-mission evaluation milestones. These remain assignments; the updated workbook does not claim their implementations are supplied.
+
 The final target uses one learned model to monitor an ordinary survey,
 choose a detour, generate local inspection movements, analyse visible litter,
 propose a map record and request resumption. It has one shared visual/language

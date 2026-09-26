@@ -1,9 +1,11 @@
 # VLA Drone Starter Kit
 
+**Start the practical work in the [updated lab workbook](labs/README.md).** It covers all 12 labs with Mac/workstation routes, predictions, commands, troubleshooting and completion evidence. A printable PDF and editable Word copy are in `../Guide/VLA_Drone_Lab_Workbook.*`.
+
 **Research target:** one VLA decides when to pause a survey, inspect and map litter, then resume. This kit supplies the foundational movement exercises; the complete mission model remains research implementation work. Read [docs/SINGLE_VLA.md](docs/SINGLE_VLA.md).
 
 
-Use this code alongside the **[Complete Thesis Guide](../Guide/VLA_Drone_Complete_Thesis_Guide_VUB.pdf)**, which combines the research handbook, ten introductory labs and two research build labs. This is a teaching project and a set of lab integration exercises, not a flight-ready drone system.
+Use this code alongside the **[Complete Thesis Guide](../Guide/VLA_Drone_Complete_Thesis_Guide_VUB.docx)** for research background. Follow the updated workbook for practical steps. This is a teaching project and a set of lab integration exercises, not a flight-ready drone system.
 
 ## What runs now
 
@@ -39,7 +41,7 @@ python -m litterlab evaluate --split test --model runs/tiny/policy.npz --languag
 python -m litterlab evaluate --split test --model runs/tiny/policy.npz --language empty --out runs/empty-test
 ```
 
-The PDF/Word guide's original evaluation commands used test scenes implicitly. Add `--split test` when reproducing its reported results; use validation scenes for development. Summaries now identify the split, and trial records include the actual input instruction. Swapped and empty instructions require `--model`; they remain scored against the original requested target.
+The original thesis guide's evaluation commands used test scenes implicitly. The updated lab workbook uses explicit splits. Add `--split test` when reproducing the historical results; use validation scenes for development. Summaries now identify the split, and trial records include the actual input instruction. Swapped and empty instructions require `--model`; they remain scored against the original requested target.
 
 ## Files
 
@@ -47,6 +49,8 @@ The PDF/Word guide's original evaluation commands used test scenes implicitly. A
 - `litterlab/learning.py`: small NumPy MLP and supervised training. This is **not SmolVLA** and does not learn an image encoder or a language model.
 - `litterlab/__main__.py`: command line, expert episodes and closed-loop evaluation.
 - `integration/data.py`: dataset contract validator and observation/action-only reader.
+- `integration/lab_tools.py`: read-only environment, episode, training and comparison helpers.
+- `labs/`: the current instructions for all 12 labs and an evidence worksheet.
 - `integration/export_lerobot.py`: optional export to LeRobot v0.4.4, one split at a time, no upload.
 - `integration/train_smolvla.py`: GPU adaptation exercise using the native flow-matching objective.
 - `integration/evaluate_smolvla.py`: image-and-language closed-loop evaluation of the adapted model in the toy simulator.
@@ -55,7 +59,7 @@ The PDF/Word guide's original evaluation commands used test scenes implicitly. A
 - `integration/px4_square.py`: local SITL position-command exercise.
 - `docs/SMOLVLA.md`, `docs/PX4.md`: integration commands and pass criteria.
 - `docs/VALIDATION.md`: what was actually executed and what remains unverified.
-- `../Guide/`: the complete 84-page illustrated guide in PDF and editable Word formats.
+- `../Guide/`: the original thesis reference in Word and updated lab workbook in PDF and Word formats.
 - `examples/`: one verified baseline episode, tiny-model checkpoint and measured evaluation summaries.
 
 The test set is for final comparisons. Do not adjust the model after seeing its test result and present a rerun as an untouched test. Make further development changes against validation scenes, then reserve a new test set.
@@ -77,3 +81,5 @@ Dataset validation requires `samples.npz` and checks its shapes, finite values, 
 ## Software and model downloads
 
 Python dependencies, PX4/Gazebo, LeRobot and pretrained model weights are installed or downloaded using the documented commands; they are not included in this ZIP. The laptop exercises need only Python, NumPy and Pillow. Later GPU and simulator labs require the separate environments described in the guide and `docs/`.
+
+For the CPU workflow, `requirements-cpu-tested.txt` records the exact NumPy/Pillow versions verified on native ARM64 Python 3.14.6. Keep the LeRobot/CUDA and simulator environments separate. See the workbook's environment table before installing optional dependencies.
