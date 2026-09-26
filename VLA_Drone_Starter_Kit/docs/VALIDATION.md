@@ -1,5 +1,22 @@
 # Validation record
 
+## Workflow fixes verified on 26 September 2026
+
+Environment: Python 3.14.6, NumPy 2.5.3, Pillow 12.3.0, in an isolated temporary virtual environment.
+
+- All 19 unit tests passed, including nine added workflow regression tests.
+- Evaluation now defaults to validation scenes; `--split test` explicitly selects the original held-out scenes. Summaries record the split and trials record the actual input task.
+- Classical swapped/empty language interventions are rejected before output creation. Learned interventions retain the original evaluation goal and log the changed input instruction.
+- Dataset validation checks `samples.npz` against public images and records, including features, actions, shapes, finite values, episode IDs and splits. The tiny trainer validates before creating its output directory. Contract checks remain active with `python -O`.
+- The bundled dataset passed the expanded validator: 1,144 train, 210 validation and 215 test samples.
+- Explicit test-split evaluations reproduced all original summary values: classical 30/30, learned normal 24/30, swapped 0/30 and empty 0/30.
+- A full 200-epoch retraining run produced weights identical to the bundled checkpoint, with 1,800 optimiser steps and best validation normalised action MSE 0.022317233243632904.
+- All starter-kit Python sources parsed successfully. Run outputs were written to temporary directories; bundled examples were preserved.
+
+The PDF/Word guide retains the original commands and ten-test count. Use the updated README commands and expect 19 tests. The optional GPU, simulator and hardware integrations remain unexecuted.
+
+## Original teaching run
+
 Executed on 26 September 2026. Environment: {'python': '3.12.14', 'numpy': '2.3.5', 'pillow': '12.3.0'}.
 
 - 10 unit tests passed: frame signs, projection round trip, invalid commands, capture-anchor semantics, observation/ground-truth separation, mapping, absent-object hold for the classical policy, target-dependent classical navigation, asset XML structure, physical scaling.
